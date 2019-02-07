@@ -1,0 +1,13 @@
+function expression($x) {
+if ($x > 0) {
+$y = 1;
+echo $x - $y;
+} elseif ( $x === 0) {
+$y = 0;
+echo $x - $y;
+} else {
+$y = -1;
+echo $x - $y;
+}
+}
+expression(-10);
